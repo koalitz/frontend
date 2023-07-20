@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="container">
                 <div className="nav-row">
                     <NavLink to="/" className="logo">
-                    <p>росмолодежь</p>
+                    <p>Центр компетенций</p>
                     </NavLink>
                
 
@@ -22,7 +22,7 @@ const Navbar = () => {
 
                 <ul className="nav-list">
                 <li className="nav-list__item">
-                            <NavLink to="/schedule" className={({ isActive }) => 
+                            <NavLink to="/schedules" className={({ isActive }) => 
                                 isActive ? activeLink : normalLink
                             } >
                                Расписание
@@ -35,13 +35,13 @@ const Navbar = () => {
                                Программы
                             </NavLink>          
                         </li>
-                        <li className="nav-list__item">
+                        {/* <li className="nav-list__item">
                             <NavLink to="/" className={({ isActive }) =>
                                 isActive ? activeLink : normalLink
                             } >
                                 Фотогалерея
                             </NavLink> 
-                        </li>
+                        </li> */}
                         <li className="nav-list__item">
                             <NavLink to="/contacts" className={({ isActive }) =>
                                 isActive ? activeLink : normalLink
@@ -50,7 +50,7 @@ const Navbar = () => {
                             </NavLink> 
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/contacts" className={({ isActive }) =>
+                            <NavLink to="/welcome" className={({ isActive }) =>
                                 isActive ? activeLink : normalLink
                             } >
                                Войти

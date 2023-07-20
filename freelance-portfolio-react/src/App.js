@@ -8,6 +8,9 @@ import Home from './pages/Home';
 import Contacts from './pages/Contacts';
 import ScrollToTop from "./utils/scrollToTop"
 import Schedule from './pages/Schedule';
+import Schedules from './pages/Shedules';
+import Welcome from './pages/Welcome';
+
 
 function App() {
   return (
@@ -20,8 +23,9 @@ function App() {
                   <Route path="/projects" element={<Projects />} />
                   <Route path="/project/:id" element={<Project />} />
                   <Route path="/contacts" element={<Contacts />} />
-                  <Route path="/schedule" element={<Schedule />} />
-
+                  <Route path="/schedules" element={<Schedules />} />
+                  <Route path="/schedule/:id" element={<Schedule />} />
+                  <Route path="/welcome" element={<Welcome />} />
              </Routes>
           <Footer/>
       </Router>

@@ -8,14 +8,14 @@
 	--black: #171718;
 	--black-border: #26292d;
 	--white: #fff;
-	--purple: #00002e;
+	--purple: #603C84;
 
 	/* Nav */
-	--nav-bg: #00002e;
+	--nav-bg: #4E236F;
 	--nav-text: var(--white);
 
 	/* Header */
-	--header-bg: #00002e;
+	--header-bg: #4E236F;
 	--header-text: var(--white);
 	
 
@@ -195,7 +195,6 @@ body {
 
 .project-details__desc {
 	margin-bottom: 30px;
-
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.3;

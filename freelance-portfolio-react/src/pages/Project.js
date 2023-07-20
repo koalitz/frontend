@@ -20,7 +20,7 @@ const Project = () => {
                     />
 
                     <div className="project-details__desc">
-                        <p>Дата: {project.skills}</p>
+                        <p> {project.skills}</p>
                     </div>
 
                     {project.gitHubLink && (
